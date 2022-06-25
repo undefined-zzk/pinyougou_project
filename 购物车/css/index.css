@@ -1,0 +1,386 @@
+.nav {
+    height: 30px;
+    background-color: #f3f3f3f5;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: red;
+}
+
+.nav h3 {
+    display: inline-block;
+    font-weight: 400;
+    text-indent: 100px;
+}
+
+.nav a {
+    color: red;
+}
+
+.nav ul {
+    height: 100%;
+    float: right;
+    /* width: 620px; */
+    margin-right: 80px;
+}
+
+.nav ul li {
+    position: relative;
+    float: left;
+    padding: 0 20px;
+}
+
+.nav ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    padding: 0;
+    margin: 0;
+    background-color: #555;
+    margin-top: 9px;
+}
+
+.nav ul li:nth-child(3)::after,
+.nav ul li:nth-child(9)::after,
+.nav ul li:nth-child(11)::after {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+    transform: rotate(45deg);
+    top: 8px;
+    right: 5px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    font-size: 0;
+    background: url(../img/logo.png) no-repeat;
+    margin-top: 20px;
+}
+
+.logo h4 {
+    position: absolute;
+    top: 15px;
+    left: 185px;
+    font-size: 20px;
+}
+
+.focus {
+    margin-top: 20px;
+}
+
+.focus h3 {
+    display: block;
+    width: 80px;
+    border-bottom: 1px solid red;
+    font-weight: 700;
+    /* font-size: 14px; */
+    color: red;
+    text-align: center;
+}
+
+.head {
+    height: 30px;
+    background-color: #f3f3f3;
+    line-height: 30px;
+    color: #333;
+    font-size: 12px;
+}
+
+.head i {
+    font-style: normal;
+}
+
+.checkAll {
+    margin-left: 10px;
+}
+
+.i2 {
+    margin-left: 100px;
+}
+
+.head ul {
+    float: right;
+    margin-right: 50px;
+}
+
+.head li {
+    float: left;
+    padding: 0 50px;
+}
+
+.focus1 {
+    position: relative;
+    height: 150px;
+    /* background-color: #fff4e8; */
+    margin-top: 10px;
+}
+
+.check-cart-item {
+    background-color: #fff4e8;
+}
+
+.focus1 img {
+    margin-top: 20px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.check1 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.focus1 p {
+    width: 250px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.focus1 ul {
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+.focus1 ul li:nth-child(2) {
+    padding: 0;
+}
+
+.focus1 ul li i,
+.focus2 ul li i,
+.focus3 ul li i {
+    display: inline-block;
+    border: 1px solid #555;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    float: left;
+}
+
+.focus1 ul li .itext,
+.focus2 ul li .itext,
+.focus3 ul li .itext {
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    width: 40px;
+    height: 20px;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid #555;
+}
+
+.focus1 ul li i:nth-child(2) {
+    width: 40px;
+}
+
+.focus2 {
+    position: relative;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.focus2 img {
+    margin-top: 20px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.check2 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.focus2 p {
+    width: 250px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.focus2 ul {
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+.focus2 ul li:nth-child(2) {
+    padding: 0;
+}
+
+.focus2 ul li i {
+    display: inline-block;
+    border: 1px solid #555;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.focus2 ul li i:nth-child(2) {
+    width: 40px;
+}
+
+.focus3 {
+    position: relative;
+    height: 150px;
+    /* background-color: rgb(229, 232, 119); */
+    margin-top: 10px;
+}
+
+.focus3 img {
+    margin-top: 20px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.check3 {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.focus3 p {
+    width: 250px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.focus3 ul {
+    margin-right: 50px;
+    float: right;
+    margin-top: 20px;
+}
+
+.focus3 ul li,
+.focus1 ul li,
+.focus2 ul li {
+    float: left;
+    padding: 0 50px;
+}
+
+.focus3 ul li:nth-child(2) {
+    padding: 0;
+}
+
+.focus3 ul li i {
+    display: inline-block;
+    border: 1px solid #555;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.focus3 ul li i:nth-child(2) {
+    width: 40px;
+}
+
+.focus1,
+.focus2,
+.focus3 {
+    border: 1px solid #f3f3f3;
+    border-top: 2px solid #555;
+}
+
+.focus_footer {
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid #f3f3f3;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.focus_footer i {
+    font-style: normal;
+}
+
+.focus_footer .i2 {
+    padding: 0 20px;
+    margin-left: 20px;
+}
+
+.focus_footer .i2 a,
+.focus_footer .i3 a {
+    color: #333;
+}
+
+.focus_footer input {
+    margin-left: 10px;
+}
+
+.focus_footer ul {
+    float: right;
+}
+
+.focus_footer ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+.focus_footer ul li:last-child {
+    height: 100%;
+    width: 60px;
+    background-color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+.focus_footer ul li:last-child a {
+    color: #fff;
+}
+
+.focus3 ul li i:nth-child(2),
+.focus2 ul li i:nth-child(2),
+.focus1 ul li i:nth-child(2) {
+    cursor: text;
+}
+
+.remove-batch:hover,
+.clearCar:hover {
+    color: red!important;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册</title>
+    <link rel="stylesheet" href="../shopping/css/base.css">
+    <link rel="shortcut icon" href="bitbug_favicon.ico">
+    <link rel="stylesheet" href="../shopping/css/register.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/register.js"></script>
+</head>
+
+<body>
+    <div class="w">
+        <!-- 注册头部区域 start -->
+        <header>
+            <div class="logo">
+                <h1>
+                    <a href="index.html" title="品优购商城">品优购商城</a>
+                </h1>
+            </div>
+        </header>
+        <!-- 注册头部区域 end -->
+
+        <!-- 注册主体区域 start -->
+        <div class="registerarea">
+            <div class="registerarea_hd">
+                <h3>新用户注册</h3>
+                <a href="javascript:;">我有账号,去<span style="color: #cd474e;">登录</span></a>
+            </div>
+            <div class="registerarea_form">
+                <form id="formRegister">
+                    <ul>
+                        <li><label for="phonenum">手机号:</label> <input type="tel" id="phonenum" name="phonenum" autocomplete="off">
+                            <i class="phonenumi"></i><span class="phnum">请输入手机号</span></li>
+                        <li><label for="vercode">短信验证码:</label> <input type="text" id="vercode" name="verificationcode" autocomplete="off">
+                            <i class="vercodei"></i><span class="success">请输入验证码</span><span class="idcode"></span><a href="javascript:;" class="getidcode">点击获取验证码</a>
+                        </li>
+                        <li><label for="paswd">登陆密码:</label> <input type="password" id="paswd" name="password" autocomplete="off">
+                            <i class="paswdi"></i><span class="loginpaswd">(支持字母开头,数字、下划线6~18位字符)</span>
+                            <div class="eyes"><img src="./images/close.png" alt=""></div>
+                        </li>
+                        <li class="safe">
+                            安全程度
+                            <em>弱</em>
+                            <em>中</em>
+                            <em>强</em>
+                        </li>
+                        <li><label for="paswdsure">确认密码:</label> <input type="password" id="paswdsure" name="repassword">
+                            <i class="paswdsurei"></i><span class="error"></span></li><br>
+                        <li class="agree"><input type="checkbox" class="agrees"> &nbsp;&nbsp;同意协议并注册 <a href="javascript:;">《知果果用户协议》</a></li>
+                        <li><button class="success_loginbtn" type="submit">完成注册</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <!-- 注册主体区域 end -->
+
+
+        <!-- 注册底部区域 start -->
+        <footer>
+            <div class="mod_copyright">
+                <ul>
+                    <li><a href="javascript:;">关于我们</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">联系客服</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">商家入驻</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">营销中心</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">手机品优购</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">友情链接</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">销售联盟</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">品优购社区</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">品优购公益</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">English Site</a></li>
+                    <li></li>
+                    <li><a href="javascript:;">Contact U</a></li>
+                </ul><br>
+                <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+        </footer>
+        <!-- 注册底部区域 start -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+.header .sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    width: 70px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 3px 12px;
+}
+
+.nav .w .sk_list {
+    float: left;
+}
+
+.nav .w .sk_list li {
+    float: left;
+    padding: 0 28px 0 28px;
+    height: 42px;
+    line-height: 42px;
+}
+
+.nav .w .sk_list li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav .w .sk_con {
+    float: left;
+    margin-left: 28px;
+}
+
+.sk_con ul li {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    padding-right: 46px;
+}
+
+.sk_con ul li a {
+    color: #cbcbcb;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+    margin-left: 7px;
+}
+
+.sk_hd {
+    height: 120px;
+    background-image: url(../upload/bg_03.png);
+    margin-bottom: 25px;
+}
+
+.sk_bd {
+    overflow: hidden;
+    margin-bottom: 282px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 458px;
+    margin-right: 10px;
+    margin-top: 10px;
+    /* 防止鼠标经过li的时候图片抖动 */
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul li a img {
+    width: 100%;
+}
+
+.sk_bd ul li p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #8c8c8c;
+    padding-left: 15px;
+}
+
+.sk_bd ul li h3,
+h5 {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.sk_bd ul li h3 {
+    font-size: 22px;
+    color: #e60012;
+    margin-left: 15px;
+}
+
+.sk_bd ul li h5 {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.sk_bd ul li .guodu {
+    float: left;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #ed282e;
+    border-radius: 7.5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    transition: width 0.3s;
+}
+
+.sk_bd ul li .guodu .change {
+    float: left;
+    width: 100px;
+    height: 10px;
+    background-color: #ed282e;
+    border-radius: 5px;
+}
+
+.sk_bd ul li .guodu .change:hover {
+    width: 95%;
+}
+
+.sk_bd ul li i {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    color: #747474;
+    font-style: normal;
+}
+
+.sk_bd ul li i:nth-of-type(1) {
+    padding-left: 15px;
+}
+
+.sk_bd ul li i:nth-of-type(2) {
+    padding-left: 10px;
+}
+
+.sk_bd ul li i:nth-of-type(3) {
+    color: #e12228;
+}
+
+.sk_bd ul li .purchase {
+    height: 50px;
+    background-color: #b1191a;
+    margin-top: 33px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.backTop {
+    display: none;
+    width: 30px;
+    height: 36px;
+    background-color: #ccc;
+    position: fixed;
+    top: 600px;
+    right: 30px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

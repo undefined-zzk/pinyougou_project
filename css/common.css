@@ -1,0 +1,394 @@
+    /* 注意路径！ */
+    
+    @font-face {
+        font-family: 'icomoon';
+        src: url('../fonts/icomoon.eot?tomleg');
+        src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+    
+    .w {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    /* 快捷导航 start*/
+    
+    .fl {
+        float: left;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .shortcut {
+        height: 30px;
+        line-height: 30px;
+        background-color: #f1f1f1;
+    }
+    
+    .shortcut ul li {
+        float: left;
+    }
+    
+    .style_red {
+        color: #c81623;
+    }
+    
+    .shortcut .fr ul li:nth-child(even) {
+        width: 1px;
+        height: 12px;
+        margin: 9px 15px 0;
+        background-color: #666666;
+    }
+    
+    .arrow-icon::after {
+        font-family: 'icomoon';
+        content: '\e91e';
+        margin-left: 8px;
+    }
+    /* 快捷导航 end */
+    /* 头部模块 start*/
+    /* logo模块 start */
+    
+    .header {
+        position: relative;
+        height: 105px;
+        background-color: #ffffff;
+    }
+    
+    .header .logo {
+        position: absolute;
+        top: 26px;
+        left: 5px;
+        width: 171px;
+        height: 61px;
+    }
+    
+    .header .logo a {
+        display: block;
+        width: 171px;
+        height: 61px;
+        background: url(../images/logo.png) no-repeat;
+        /* text-indent: -9999px;
+    overflow: hidden;  淘宝做法*/
+        /* 京东做法 */
+        font-size: 0;
+    }
+    /* logo模块 end */
+    /* 搜索栏模块 start */
+    
+    .search {
+        position: relative;
+        position: absolute;
+        top: 26px;
+        left: 346px;
+        height: 34px;
+        width: 534px;
+        border: 2px solid #b1191a;
+        color: #adadad;
+        box-sizing: border-box;
+    }
+    
+    .search input {
+        float: left;
+        width: 452px;
+        height: 30px;
+        padding-left: 10px;
+        color: #989898;
+    }
+    
+    .search button {
+        position: absolute;
+        float: right;
+        height: 32px;
+        width: 80px;
+        color: #ecd3d3;
+        font-size: 16px;
+        background-color: #b1191a;
+    }
+    
+    #content {
+        display: none;
+        position: absolute;
+        height: 300px;
+        background-color: rgba(0, 0, 0, .7);
+        width: 100.8%;
+        top: 32px;
+        left: -2px;
+        z-index: 99;
+        border: 2px solid #c81623;
+        padding-left: 5px;
+        overflow: auto;
+    }
+    
+    #content li {
+        margin-bottom: 3px;
+    }
+    
+    #content li a {
+        font-size: 12px;
+        color: #ffffff;
+    }
+    /* 搜索栏模块 end */
+    /* hotwrods模块 start */
+    
+    .hotwrods {
+        position: absolute;
+        top: 66px;
+        left: 346px;
+        width: 534px;
+        height: 39px;
+    }
+    
+    .hotwrods a {
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    /* hotwrods模块 end */
+    /* shopcar 模块 start */
+    
+    .shopcar {
+        position: absolute;
+        right: 60px;
+        top: 26px;
+        width: 140px;
+        height: 34px;
+        border: 1px solid #dfdfdf;
+        background-color: #f7f7f7;
+        text-align: center;
+        color: #666666;
+        line-height: 34px;
+    }
+    
+    .shopcar::before {
+        font-family: 'icomoon';
+        content: '\e93a';
+        margin-right: 5px;
+        color: #b1191a;
+    }
+    
+    .shopcar::after {
+        font-family: 'icomoon';
+        content: '\e920';
+        margin-left: 10px;
+        color: #d4d4d4;
+    }
+    
+    .count {
+        position: absolute;
+        display: block;
+        bottom: 25px;
+        left: 105px;
+        padding: 0 6px;
+        height: 14px;
+        line-height: 14px;
+        color: #fefefe;
+        border-radius: 7px 7px 7px 0;
+        background-color: #b1191a;
+    }
+    /* 头部模块 end*/
+    /* nav 模块制作 start */
+    
+    .nav {
+        height: 45px;
+        background-color: #ffffff;
+        border: 2px solid transparent;
+        border-bottom-color: #b1191a;
+    }
+    
+    .dropdown {
+        float: left;
+        width: 210px;
+        height: 42px;
+        background-color: #b1191a;
+    }
+    
+    .dropdown .dt {
+        width: 100%;
+        height: 100%;
+        color: #d8a0a1;
+        font-size: 16px;
+        line-height: 42px;
+        text-align: center;
+    }
+    
+    .dropdown .dd {
+        width: 100%;
+        height: 465px;
+        background-color: #c81623;
+        margin-top: 1px;
+    }
+    
+    .dropdown .dd ul li {
+        position: relative;
+        width: 100%;
+        height: 31px;
+        margin-left: 2px;
+    }
+    
+    .dropdown .dd ul li::after {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        color: #f1d3d4;
+        font-family: 'icomoon';
+        content: '\e920';
+    }
+    
+    .dropdown .dd ul li:hover {
+        background-color: #f7f7f7;
+    }
+    
+    .dropdown .dd ul li a {
+        font-size: 14px;
+        color: #f1d3d4;
+        line-height: 31px;
+        padding-left: 10px;
+    }
+    
+    .dropdown .dd ul li:hover a {
+        color: #c81623;
+    }
+    
+    .navitems ul li {
+        float: left;
+    }
+    
+    .navitems ul li a {
+        padding: 0 24px;
+        font-size: 16px;
+        line-height: 42px;
+        color: #333333;
+    }
+    
+    .navitems ul li a:hover {
+        color: #c81623;
+    }
+    /* nav 模块制作 end */
+    /* footer 模块制作 start  */
+    
+    .footer {
+        height: 415px;
+        padding-top: 30px;
+        background-color: #f5f5f5;
+        margin-top: 130px;
+    }
+    
+    .mod_service {
+        height: 80px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .mod_service ul li {
+        float: left;
+        height: 50px;
+        width: 240px;
+        background-color: #f5f5f5;
+        padding-left: 35px;
+    }
+    
+    .mod_service ul li h5 {
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 8px;
+        background: url(../images/icons.png) no-repeat;
+    }
+    
+    .mod_service ul li:nth-child(1) h5 {
+        background-position: -252px -3px;
+    }
+    
+    .mod_service ul li:nth-child(2) h5 {
+        background-position: -254px -53px;
+    }
+    
+    .mod_service ul li:nth-child(3) h5 {
+        background-position: -257px -105px;
+    }
+    
+    .mod_service ul li:nth-child(4) h5 {
+        background-position: -258px -157px;
+    }
+    
+    .mod_service ul li:nth-child(5) h5 {
+        background-position: -257px -209px;
+    }
+    
+    .service_txt h4 {
+        font-size: 14px;
+        font-weight: 700;
+        color: #797979;
+    }
+    
+    .service_txt p {
+        font-size: 12px;
+        color: #666666;
+    }
+    
+    .mod_help {
+        height: 187px;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .mod_help dl {
+        float: left;
+        width: 200px;
+        height: 187px;
+        padding: 16px 0 0 50px;
+    }
+    
+    .mod_help dl dt {
+        margin-top: 0;
+        font-size: 16px;
+        color: #5a5a5a;
+    }
+    
+    .mod_help dl dd {
+        font-size: 12px;
+        color: #666666;
+    }
+    
+    .mod_help dl dd:nth-of-type(1) {
+        margin-top: 5px;
+    }
+    
+    .mod_help dl dd:nth-of-type(n+2) {
+        margin-top: 2px;
+    }
+    
+    .mod_help dl dd img {
+        margin-left: -14px;
+    }
+    
+    .mod_copyright li {
+        float: left;
+        color: #666666;
+    }
+    
+    .mod_copyright ul {
+        margin-top: 20px;
+        margin-left: 115px;
+    }
+    
+    .mod_copyright p {
+        text-align: center;
+        margin-top: 20px;
+        color: #666666;
+    }
+    
+    .mod_copyright li:nth-child(even) {
+        height: 12px;
+        width: 1px;
+        margin-top: 3px;
+        background-color: #999999;
+    }
+    
+    .mod_copyright li:nth-child(odd) {
+        padding: 0 15px;
+    }
+    /* footer 模块制作 end */
